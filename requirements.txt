@@ -1,0 +1,6 @@
+gdown==4.6.3
+streamlit
+opencv-python-headless
+numpy
+torch
+torchvision
