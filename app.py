@@ -409,9 +409,9 @@ function createConfetti() {
 st.markdown("""
 <div class="hero">
   <div class="hero-content">
-    <div class="hero-badge">⚡ Neural Motion Intelligence</div>
+    <div class="hero-badge">⚡ EOT </div>
     <h1 class="hero-title">MOTION<span>IQ</span></h1>
-    <p class="hero-sub">Advanced human activity recognition powered by EfficientNetV2, Optical Flow analysis, and Transformer fusion. Real-time inference with 15 specialized activity classes.</p>
+    <p class="hero-sub">Advanced human activity recognition powered by EfficientNetV2, Optical Flow analysis, and Transformer. Real-time inference with 15 specialized activity classes.</p>
     <div class="hero-stats">
       <div class="stat-item"><span class="stat-value">15</span><span class="stat-label">Activities</span></div>
       <div class="stat-item"><span class="stat-value">16</span><span class="stat-label">Frames</span></div>
@@ -461,7 +461,7 @@ with col2:
     st.markdown('<div class="panel-header"><span class="panel-step">STEP 02</span><span class="panel-title">Analysis Results</span></div>', unsafe_allow_html=True)
 
     if not uploaded_file:
-        st.markdown('<div class="idle-box"><span class="idle-icon">🎯</span><p class="idle-text">Upload a video on the left<br>to unlock AI-powered activity recognition</p></div>', unsafe_allow_html=True)
+        st.markdown('<div class="idle-box"><span class="idle-icon">🎯</span><p class="idle-text">Upload a video on the left.</p></div>', unsafe_allow_html=True)
     elif not model:
         st.error("⚠️ Model could not be loaded. Please ensure `har.pth` exists in the project directory.")
     else:
