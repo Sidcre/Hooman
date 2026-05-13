@@ -415,7 +415,7 @@ st.markdown("""
     <div class="hero-stats">
       <div class="stat-item"><span class="stat-value">15</span><span class="stat-label">Activities</span></div>
       <div class="stat-item"><span class="stat-value">16</span><span class="stat-label">Frames</span></div>
-      <div class="stat-item"><span class="stat-value">98.2%</span><span class="stat-label">Accuracy</span></div>
+      <div class="stat-item"><span class="stat-value">95%</span><span class="stat-label">Accuracy</span></div>
     </div>
   </div>
 </div>
